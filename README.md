@@ -1,7 +1,7 @@
 # EnviroHarsh
 Study on two sources of environmental harshness - Pathogen Prevalence and Resource Scarcity - and their impact on preference of facial masculinity
 
-**Results in a nutshell** <br>
+**Results in a nutshell:** <br>
 Slight preference for facial masculinity in long-term male partners is the baseline that can be reinforced by high resource scarcity. High pathogen prevalence is the game changer that elicits preferences for higher facial femininity. Rated formidability and healthiness (both higher in masculinized faces) predict facial attractiveness.
 
 **You can track the preprint here:**
