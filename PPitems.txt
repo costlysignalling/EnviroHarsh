@@ -1,0 +1,19 @@
+number	item	short
+1	It really bothers me when people sneeze without covering their mouths.	Sneeze bothers me
+2	If an illness is ‘going around’, I will get it.	I will get ill
+3	I am comfortable sharing a water bottle with a friend. (R)	Comfortable sharing bottle (R)
+4	I do not like to write with a pencil someone else has obviously chewed on.	Dislike chewed on pencil
+5	My past experiences make me believe I am not likely to get sick even when my friends are sick. (R)	Not sick when friends sick (R)
+6	I have a history of susceptibility to infectious disease.	History of susceptibility
+7	I prefer to wash my hands pretty soon after shaking someone’s hand.	Wash soon after shaking hands
+8	In general, I am very susceptible to colds, flu and other infectious diseases.	Susceptible to colds and flu
+9	I dislike wearing used clothes because you do not know what the last person who wore it was like.	Dislike wearing used clothes
+10	Even if they have obviously been cleaned recently, I get uncomfortable using toilets that I know are used by other people, in places like hotels or homes.	Uncomfortable using public toilets
+11	I am more likely than the people around me to catch an infectious disease.	More likely to catch illness
+12	My hands do not feel dirty after touching money. (R)	Hands do not feel dirty after money (R)
+13	I am unlikely to catch a cold, flu or other illness, even if it is ‘going around’. (R)	Not likely to catch anything (R)
+14	Even if I know they have been cleaned, it makes me uneasy to use cutlery in places that serve the public, such as dining halls.	Uneasy using restaurant cultery
+15	It does not make me anxious to be around sick people. (R)	Not anxious around sick (R)
+16	My immune system protects me from most illnesses that other people get. (R)	Immunity protects me (R)
+17	I avoid holding on to the handles in public transportation vehicles because of the risk that I may catch something from the previous user.	Avoid holding on handles
+18	It is not a problem for me to camp away from the hygienic facilities of daily life such as toilet paper, wet towels, and detergents. (R)	Can camp away from toilet paper (R)

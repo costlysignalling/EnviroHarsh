@@ -1,0 +1,17 @@
+number	item	short
+1	If we use natural resources wisely, there is no reason why the world should not offer abundance to all mankind. (R)	Wisdom offers abundance (R)
+2	I am not expecting to have a problem in meeting my basic needs such as food and water in my lifetime. (R)	Not expecting problems (R)
+3	As human civilization is becoming increasingly aware of environmental issues, we can witness that the “ecological crisis” we are supposedly experiencing is completely resolved in the period ahead of us. (R)	Crisis will be resolved (R)
+4	The number of people the planet can feed is limited and we are pushing this limit more and more.	We are pushing the limit
+5	Nature has always offered and will continue to offer abundance to humanity. (R)	Nature gonna deliver (R)
+6	We will suffer from the misuse of natural resources in the years to come.	We will suffer from misuse
+7	The shortages of food and water that people in the lower levels of society are currently experiencing will soon begin to be experienced by the upper levels.	Shortage will affetc upper clesses
+8	Food prices are constantly rising and I am concerned about that.    	Worried about rising prices
+9	The decline in natural resources worries me about my near future.	Worried about nat. res. decline
+10	I think I will personally be affected from the scarcity of basic resources such as water and food.	Personally affeced by scarcity soon
+11	I think the presence of people in hunger is an element of natural balance. (R)	People in hunger part of ballance (R)
+12	The uncontrolled growth of the population, especially in the last century, does not scare me. (R)	Uncontrolled growth does not scare (R)
+13	I believe that the accumulation of world’s population in certain countries and regions is a problem.	Accumulation of population is a problem
+14	I care about doing something to prevent the careless depletion of natural resources.	Attempts to prevent depletion
+15	I believe that society should be made more aware regarding the conservation of natural resources.	Society should wake up
+16	I think that even if our natural resources are almost exhausted, nature will soon be able to normalize this situation. (R)	Nature will soon normalize situation (R)
