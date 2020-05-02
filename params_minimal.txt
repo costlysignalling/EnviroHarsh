@@ -1,0 +1,9 @@
+nam	block	ofs	dependent		predictor	condition	plot	col	hex
+ac	1		Choose mas.	~	condition	[control]	T	1	333333
+	1		Choose mas.	~	condition	[pathogen]	T	2	FF6432
+	1		Choose mas.	~	condition	[scarcity]	T	3	3232FF
+bs	1		Choose mas.	~	mas. right		T	6	000000
+zf							F		
+zr							F		
+sigma_f	2		Choose mas.	~	SD targets		T	7	00C997
+sigma_r	2		Choose mas.	~	SD raters		T	7	

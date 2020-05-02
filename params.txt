@@ -1,0 +1,79 @@
+nam	block	ofs	dependent		predictor	condition	plot	col	hex
+ac	1		Choose mas.	~	condition	[control]	T	1	333333
+	1		Choose mas.	~	condition	[pathogen]	T	2	FF6432
+	1		Choose mas.	~	condition	[scarcity]	T	3	3232FF
+bAd	1	0.4	Choose mas.	~	diff. Attr.	[control]	T	1	
+	1		Choose mas.	~	diff. Attr.	[pathogen]	T	2	
+	1		Choose mas.	~	diff. Attr.	[scarcity]	T	3	
+bFd	1	0.4	Choose mas.	~	diff. Form.	[control]	T	1	
+	1		Choose mas.	~	diff. Form.	[pathogen]	T	2	
+	1		Choose mas.	~	diff. Form.	[scarcity]	T	3	
+bHd	1	0.4	Choose mas.	~	diff. Heal.	[control]	T	1	
+	1		Choose mas.	~	diff. Heal.	[pathogen]	T	2	
+	1		Choose mas.	~	diff. Heal.	[scarcity]	T	3	
+bPP	1	0.4	Choose mas.	~	PPs score		T	4	FBB371
+bRS	1		Choose mas.	~	RSs score		T	5	B1B1FF
+bs	1		Choose mas.	~	mas. right		T	6	000000
+zf							F		
+zr							F		
+sigma_f	2		Choose mas.	~	SD targets		T	7	00C997
+sigma_r	2		Choose mas.	~	SD raters		T	7	
+acA_mas	3		Attr. mas.	~	condition	[control]	T	1	
+acA_fem	3		Attr. fem.	~	condition	[control]	T	1	
+	3		Attr. mas.	~	condition	[pathogen]	T	2	
+	3		Attr. fem.	~	condition	[pathogen]	T	2	
+	3		Attr. mas.	~	condition	[scarcity]	T	3	
+	3		Attr. fem.	~	condition	[scarcity]	T	3	
+bPPA_mas	3		Attr. mas.	~	PPs score		T	4	
+bPPA_fem	3		Attr. fem.	~	PPs score		T	4	
+bRSA_mas	3		Attr. mas.	~	RSs score		T	5	
+bRSA_fem	3		Attr. fem.	~	RSs score		T	5	
+zfA							F		
+zrA							F		
+ziA							F		
+sigma_fA	4	0.4	Attr.	~	SD targets		T	8	009696
+sigma_rA	4		Attr.	~	SD raters		T	8	
+sigma_iA	4		Attr.	~	SD target:rater		T	8	
+cutpointsA							F		
+acF_mas	3	0.4	Form. mas.	~	condition	[control]	T	1	
+acF_fem	3		Form. fem.	~	condition	[control]	T	1	
+	3		Form. mas.	~	condition	[pathogen]	T	2	
+	3		Form. fem.	~	condition	[pathogen]	T	2	
+	3		Form. mas.	~	condition	[scarcity]	T	3	
+	3		Form. fem.	~	condition	[scarcity]	T	3	
+bPPF_mas	3		Form. mas.	~	PPs score		T	4	
+bPPF_fem	3		Form. fem.	~	PPs score		T	4	
+bRSF_mas	3		Form. mas.	~	RSs score		T	5	
+bRSF_fem	3		Form. fem.	~	RSs score		T	5	
+zfF							F		
+zrF							F		
+ziF							F		
+sigma_fF	4	0.4	Form.	~	SD targets		T	9	960096
+sigma_rF	4		Form.	~	SD raters		T	9	
+sigma_iF	4		Form.	~	SD target:rater		T	9	
+cutpointsF							F		
+acH_mas	3	0.4	Heal. mas.	~	condition	[control]	T	1	
+acH_fem	3		Heal. fem.	~	condition	[control]	T	1	
+	3		Heal. mas.	~	condition	[pathogen]	T	2	
+	3		Heal. fem.	~	condition	[pathogen]	T	2	
+	3		Heal. mas.	~	condition	[scarcity]	T	3	
+	3		Heal. fem.	~	condition	[scarcity]	T	3	
+bPPH_mas	3		Heal. mas.	~	PPs score		T	4	
+bPPH_fem	3		Heal. fem.	~	PPs score		T	4	
+bRSH_mas	3		Heal. mas.	~	RSs score		T	5	
+bRSH_fem	3		Heal. fem.	~	RSs score		T	5	
+zfH							F		
+zrH							F		
+ziH							F		
+sigma_fH	4	0.4	Heal.	~	SD targets		T	10	969600
+sigma_rH	4		Heal.	~	SD raters		T	10	
+sigma_iH	4		Heal.	~	SD target:rater		T	10	
+cutpointsH							F		
+a_PPs	5		PPs score	~	condition	[control]	T	1	
+	5		PPs score	~	condition	[pathogen]	T	2	
+	5		PPs score	~	condition	[scarcity]	T	3	
+a_RSs	5	0.4	RSs score	~	condition	[control]	T	1	
+	5		RSs score	~	condition	[pathogen]	T	2	
+	5		RSs score	~	condition	[scarcity]	T	3	
+sigma_PPs							F		
+sigma_RSs							F		

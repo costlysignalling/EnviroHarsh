@@ -1,0 +1,19 @@
+nam	block	ofs	dependent		predictor	condition	plot	col	hex
+sexC	1		Attractiveness	~	Mas/Fem	[control]	T	1	333333
+	1		Attractiveness	~	Mas/Fem	[pathogen]	T	2	FF6432
+	1		Attractiveness	~	Mas/Fem	[scarcity]	T	3	3232FF
+bF	1	0.4	Attractiveness	~	Formidability	[control]	T	1	
+	1		Attractiveness	~	Formidability	[pathogen]	T	2	
+	1		Attractiveness	~	Formidability	[scarcity]	T	3	
+bH	1	0.4	Attractiveness	~	Healthiness	[control]	T	1	
+	1		Attractiveness	~	Healthiness	[pathogen]	T	2	
+	1		Attractiveness	~	Healthiness	[scarcity]	T	3	
+zfA							F		
+zrA							F		
+ziA							F		
+sigma_fA	2		Attractiveness	~	SD targets		T	4	009696
+sigma_rA	2		Attractiveness	~	SD raters		T	4	
+sigma_iA	2		Attractiveness	~	SD target:rater		T	4	
+cutpointsA							F		
+predelta_F							F		
+predelta_H							F		
