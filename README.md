@@ -5,7 +5,7 @@ Study on two sources of environmental harshness - Pathogen Prevalence and Resour
 Slight preference for facial masculinity in long-term male partners is the baseline that can be reinforced by high resource scarcity. High pathogen prevalence is the game changer that elicits preferences for higher facial femininity. Rated formidability and healthiness (both higher in masculinized faces) predict facial attractiveness.
 
 **Data:** <br>
-Raw data used in the pilot study on experimental manipulation can be found in **data_pilot.txt** file
+Raw data used in the pilot study on experimental manipulation can be found in **data_pilot.txt** file.\
 Raw data used in the experiment that contain complete image ratings and forced choices can be found in **data_experiment.txt** file
 
 **You can track the preprint here:**
