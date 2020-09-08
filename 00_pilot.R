@@ -13,11 +13,12 @@ revcol<-function(d,c,maxi=7,mini=1){
   return(d)
 }
 
-dp <- read.csv("pilot_data.csv", sep = ",",stringsAsFactors = F)
+dp<-read.table("data_pilot.txt",sep="\t",header=T,stringsAsFactors = F)
 
 (nam<-names(dp))
 
 nrow(dp)
+summary(as.factor(dp$Sex))
 
 #Check how many answers got people right
 
@@ -46,6 +47,12 @@ summary(as.factor(dp$SexOrient))
 dp<-dp[dp$SexOrient==1,]
 nrow(dp)
 
+summary(as.factor(dp$Sex))
+
+mean(dp$Age)
+sd(dp$Age)
+
+
 # Calculate Enviromental Harshness scales
 
 PPdat<-dp[,substr(nam,1,2)=="PP"&substr(nam,3,3)!="V"&substrRight(nam,6)!="revcod"&substrRight(nam,3)!="AVE"]
@@ -59,6 +66,10 @@ RSdat<-revcol(RSdat,c(1,2,3,5,11,12,16))
 # Check that there are no missing values
 sum(is.na(as.matrix(PPdat)))
 sum(is.na(as.matrix(RSdat)))
+
+psych::alpha(PPdat)$total$raw_alpha
+psych::alpha(RSdat)$total$raw_alpha
+
 
 dp$PP<-rowSums(PPdat)
 dp$RS<-rowSums(RSdat)
@@ -176,9 +187,4 @@ for(i in 1:ncol(mpost)){
 }
 abline(h=descaleRSp(0),lwd=1.5,col="#00000080")
 dev.off()
-
-
-
-
-
 
