@@ -15,7 +15,7 @@ revcol<-function(d,c,maxi=7,mini=1){
 }
 
 #Load the raw data
-d<-read.table("rawdata.txt",sep="\t",header=T,stringsAsFactors = F)
+d<-read.table("data_experiment.txt",sep="\t",header=T,stringsAsFactors = F)
 (nam<-names(d))
 
 nrow(d)
@@ -62,6 +62,8 @@ RSdat<-revcol(RSdat,c(1,2,3,5,11,12,16))
 # Check that there are no missing values
 sum(is.na(as.matrix(PPdat)))
 sum(is.na(as.matrix(RSdat)))
+
+nrow(PPdat)
 
 d$PP<-rowSums(PPdat)
 d$RS<-rowSums(RSdat)
@@ -194,3 +196,32 @@ nrow(dw)
 mean(as.numeric(dw$Age[dw$Age!="HH"]))
 sd(as.numeric(dw$Age[dw$Age!="HH"]))
 
+
+#Cronbachs alpha for the final sample
+PPdat<-dw[,substr(names(dw),1,2)=="PP"&substr(names(dw),3,3)!="V"&nchar(names(dw))>2]
+names(PPdat)[c(3,5,12,13,15,16,18)]
+PPdat<-revcol(PPdat,c(3,5,12,13,15,16,18))
+sum(rowSums(PPdat)==dw$PP)
+
+RSdat<-dw[,substr(names(dw),1,2)=="RS"&substr(names(dw),3,3)!="V"&nchar(names(dw))>2]
+names(RSdat)[c(1,2,3,5,11,12,16)]
+RSdat<-revcol(RSdat,c(1,2,3,5,11,12,16))
+sum(rowSums(RSdat)==dw$RS)
+
+psych::alpha(PPdat)$total$raw_alpha
+psych::alpha(RSdat)$total$raw_alpha
+
+#Other descriptives
+summary(as.factor(dw$RelationshipStatus))
+
+mean(as.numeric(dw$MateValue_Face))
+sd(as.numeric(dw$MateValue_Face))
+plot(density(dw$MateValue_Face))
+
+mean(as.numeric(dw$MateValue_Body))
+sd(as.numeric(dw$MateValue_Body))
+plot(density(dw$MateValue_Body))
+
+cor(dw$MateValue_Body,dw$MateValue_Face)
+
+plot(jitter(dw$MateValue_Body),jitter(dw$MateValue_Face))
