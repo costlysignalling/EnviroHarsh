@@ -6,7 +6,7 @@ Slight preference for facial masculinity in long-term male partners is the basel
 
 **Data:** <br>
 Raw data used in the pilot study on experimental manipulation can be found in **data_pilot.txt** file.\
-Raw data used in the experiment that contain complete image ratings and forced choices can be found in **data_experiment.txt** file
+Raw data used in the experiment that contain complete image ratings and forced choices can be found in **data_experiment.txt** file.
 
 **You can track the preprint here:**
 
